@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Yiting Hu - academic homepage for trustworthy machine learning, continual learning, machine unlearning, and IoT systems."
+    >
+    <title>Yiting Hu | Academic Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Yiting Hu home">Yiting Hu</a>
+        <div class="nav-links">
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+          Theme
+        </button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Ph.D. Candidate | Trustworthy Machine Learning</p>
+          <h1 id="hero-title">Yiting Hu</h1>
+          <p class="role">
+            Ph.D. candidate in Engineering Systems and Design at Singapore University
+            of Technology and Design, and visiting Ph.D. student at HKUST(GZ).
+          </p>
+          <p class="summary hero-summary">
+            I study reliable machine learning systems that adapt over time while
+            remaining robust, auditable, and able to remove data influence when
+            needed. My current work focuses on continual learning, certified machine
+            unlearning, data poisoning, and trustworthy AI for IoT and
+            cyber-physical systems.
+          </p>
+          <div class="hero-actions" aria-label="Academic links">
+            <a class="button primary" href="assets/Yiting_Hu_CV.pdf">CV</a>
+            <a
+              class="button"
+              href="https://scholar.google.com/citations?user=phDMTS0AAAAJ&hl=en"
+            >Google Scholar</a>
+            <a class="button" href="assets/publications.bib">BibTeX</a>
+            <a class="button" href="mailto:your.email@domain.edu">Email</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Research snapshot">
+          <div class="profile-mark" aria-hidden="true">YH</div>
+          <div>
+            <p class="panel-title">Current Focus</p>
+            <p>
+              Theory and algorithms for learning systems that must remember,
+              adapt, forget, and resist adversarial data.
+            </p>
+          </div>
+          <figure class="hero-figure">
+            <img src="assets/unlearn-seq.png" alt="Schematic of sequential unlearning events">
+            <figcaption>Sequential learning and unlearning over time.</figcaption>
+          </figure>
+        </aside>
+      </section>
+
+      <section class="news section-band" aria-labelledby="news-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">News</p>
+          <h2 id="news-title">Recent Updates</h2>
+        </div>
+        <div class="news-grid">
+          <article class="news-item">
+            <time datetime="2026">2026</time>
+            <p>
+              Two papers accepted to ICML 2026 on certified unlearning theory in
+              continual learning and defense against poisoning attacks.
+            </p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-01">Jan. 2026</time>
+            <p>
+              Visiting Ph.D. student at HKUST(GZ), Information Hub, Internet of
+              Things Thrust.
+            </p>
+          </article>
+          <article class="news-item">
+            <time datetime="2025">2025</time>
+            <p>
+              Paper on truthful mechanisms for linear bandit games accepted to
+              AAMAS 2025.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2 id="research-title">Research Themes</h2>
+          <p>
+            My research connects theoretical guarantees with learning systems that
+            operate in sequential, interactive, and adversarial environments.
+          </p>
+        </div>
+        <div class="theme-grid">
+          <article class="theme-card">
+            <span class="theme-index">01</span>
+            <h3>Continual Learning</h3>
+            <p>
+              Learning from task streams while controlling forgetting,
+              regularization effects, and long-horizon error propagation.
+            </p>
+          </article>
+          <article class="theme-card">
+            <span class="theme-index">02</span>
+            <h3>Machine Unlearning</h3>
+            <p>
+              Certified removal of task or data influence in models that have
+              already adapted across a learning history.
+            </p>
+          </article>
+          <article class="theme-card">
+            <span class="theme-index">03</span>
+            <h3>Trustworthy AI</h3>
+            <p>
+              Robustness, security, privacy, and human-facing governance for
+              learning systems deployed in connected environments.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2 id="publications-title">Selected Publications</h2>
+          <p>
+            A compact list is shown here; the full BibTeX file is available above.
+          </p>
+        </div>
+
+        <div class="filter-bar" aria-label="Publication filters">
+          <button class="filter-button active" type="button" data-filter="all">All</button>
+          <button class="filter-button" type="button" data-filter="accepted">Accepted</button>
+          <button class="filter-button" type="button" data-filter="under-review">Under Review</button>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication-card" data-status="accepted">
+            <div class="pub-meta">
+              <span>ICML 2026</span>
+              <span class="status accepted">Accepted</span>
+            </div>
+            <h3>Theory of Continual Learning Against Data Poisoning Attacks</h3>
+            <p class="authors"><strong>Yiting Hu</strong>, Lingjie Duan</p>
+            <p>
+              A theoretical framework for robust continual learning under
+              poisoning attacks, formulated through online minimax analysis.
+            </p>
+            <div class="pub-links">
+              <a href="https://icml.cc/virtual/2026/poster/65304">ICML page</a>
+              <button type="button" data-copy="hu2026poisoning">Copy cite</button>
+            </div>
+          </article>
+
+          <article class="publication-card" data-status="accepted">
+            <div class="pub-meta">
+              <span>ICML 2026</span>
+              <span class="status accepted">Accepted</span>
+            </div>
+            <h3>
+              The Forgetting-Retention Dilemma: Certified Unlearning Theory in
+              Continual Learning
+            </h3>
+            <p class="authors"><strong>Yiting Hu</strong>, Lingjie Duan, Qian Zhang</p>
+            <p>
+              Certified unlearning theory for continual learning, characterizing
+              the tension between retaining useful knowledge and removing requested
+              influence.
+            </p>
+            <div class="pub-links">
+              <a href="https://icml.cc/virtual/2026/poster/60494">ICML page</a>
+              <button type="button" data-copy="hu2026unlearning">Copy cite</button>
+            </div>
+          </article>
+
+          <article class="publication-card" data-status="accepted">
+            <div class="pub-meta">
+              <span>AAMAS 2025</span>
+              <span class="status accepted">Accepted</span>
+            </div>
+            <h3>Truthful Mechanisms for Linear Bandit Games with Private Contexts</h3>
+            <p class="authors"><strong>Yiting Hu</strong>, Lingjie Duan</p>
+            <p>
+              Mechanism design for linear bandit games where agents hold private
+              contextual information.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2501.03865">arXiv</a>
+              <button type="button" data-copy="hu2025truthful">Copy cite</button>
+            </div>
+          </article>
+
+          <article class="publication-card" data-status="under-review">
+            <div class="pub-meta">
+              <span>2026</span>
+              <span class="status review">Under Review</span>
+            </div>
+            <h3>Theory for Group-Robust Continual Learning</h3>
+            <p class="authors"><strong>Yiting Hu</strong>, Lingjie Duan</p>
+            <p>
+              Manuscript on robustness guarantees for continual learning across
+              groups and evolving task streams.
+            </p>
+          </article>
+
+          <article class="publication-card" data-status="under-review">
+            <div class="pub-meta">
+              <span>2026</span>
+              <span class="status review">Under Review</span>
+            </div>
+            <h3>Human-in-the-Loop Learning Through Communication Restriction</h3>
+            <p class="authors"><strong>Yiting Hu</strong>, Lingjie Duan</p>
+            <p>
+              Learning and incentive questions when human feedback is shaped by
+              limited communication channels.
+            </p>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2509.09574">arXiv</a>
+              <button type="button" data-copy="hu2026communicationrestriction">Copy cite</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Selected Work</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/figure3.png" alt="Plot showing unlearning order effect">
+            <div class="project-content">
+              <p class="eyebrow">Certified Unlearning</p>
+              <h3>Forgetting-Retention Trade-offs</h3>
+              <p>
+                Analysis and experiments on how unlearning order changes
+                approximation error in continual learning systems.
+              </p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/figure4.png" alt="Plot showing unlearning request timing effect">
+            <div class="project-content">
+              <p class="eyebrow">Sequential Models</p>
+              <h3>History-Aware Model Updates</h3>
+              <p>
+                Studying how information from older tasks propagates through later
+                model states and how that affects deletion requests.
+              </p>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="assets/figure5.png" alt="Plot showing memory and performance comparison">
+            <div class="project-content">
+              <p class="eyebrow">Trustworthy Systems</p>
+              <h3>Efficient Guarantees</h3>
+              <p>
+                Designing resource-aware methods that balance storage, performance,
+                and certified behavior over time.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="experience-title">Education and Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="time">2023 - Present</span>
+            <h3>Singapore University of Technology and Design</h3>
+            <p>Ph.D. candidate, Engineering Systems and Design.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="time">Jan. 2026 - Present</span>
+            <h3>HKUST(GZ)</h3>
+            <p>Visiting Ph.D. student, Information Hub, Internet of Things Thrust.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="time">2019 - 2022</span>
+            <h3>Beihang University</h3>
+            <p>M.Eng. in Electronic Information Engineering.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="time">2015 - 2019</span>
+            <h3>Beihang University</h3>
+            <p>B.S. in Chemistry.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Get in Touch</h2>
+          <p>
+            I am interested in collaborations around trustworthy learning,
+            continual adaptation, certified unlearning, and AI for connected
+            systems.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:your.email@domain.edu">your.email@domain.edu</a>
+          <a href="https://scholar.google.com/citations?user=phDMTS0AAAAJ&hl=en">Google Scholar</a>
+          <a href="https://github.com/yitinghu011">GitHub</a>
+          <a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span data-year></span> Yiting Hu. Last updated July 2026.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
