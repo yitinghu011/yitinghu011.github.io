@@ -480,6 +480,21 @@ h1 {
   gap: 0.85rem;
 }
 
+.news-list {
+  max-width: 760px;
+}
+
+.news-list article {
+  display: grid;
+  grid-template-columns: 5.2rem minmax(0, 1fr);
+  align-items: start;
+  gap: 1rem;
+}
+
+.news-list time {
+  margin-bottom: 0;
+}
+
 .timeline article {
   padding: 1rem;
 }
@@ -560,6 +575,24 @@ h1 {
     font-size: 0.91rem;
   }
 
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.35rem;
+    overflow-x: visible;
+  }
+
+  .nav-links a {
+    justify-content: center;
+    min-width: 0;
+    padding: 0 0.25rem;
+    text-align: center;
+  }
+
+  .icon-button {
+    display: none;
+  }
+
   .layout {
     padding: 1rem;
   }
@@ -583,5 +616,10 @@ h1 {
   .project-grid,
   .two-column {
     grid-template-columns: 1fr;
+  }
+
+  .news-list article {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 }
