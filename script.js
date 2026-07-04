@@ -7,7 +7,11 @@ function applyTheme(theme) {
   root.dataset.theme = theme;
   localStorage.setItem("theme", theme);
   if (themeToggle) {
-    themeToggle.textContent = theme === "dark" ? "Light" : "Dark";
+    themeToggle.title = theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+    themeToggle.setAttribute(
+      "aria-label",
+      theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
+    );
     themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
   }
 }
@@ -19,7 +23,10 @@ themeToggle?.addEventListener("click", () => {
   applyTheme(nextTheme);
 });
 
-document.querySelector("[data-year]").textContent = new Date().getFullYear();
+const yearNode = document.querySelector("[data-year]");
+if (yearNode) {
+  yearNode.textContent = new Date().getFullYear();
+}
 
 const filterButtons = document.querySelectorAll("[data-filter]");
 const publications = document.querySelectorAll(".publication-card");
