@@ -10,18 +10,22 @@ Live URL: https://yitinghu011.github.io/
 ## Files
 
 - `index.html` - homepage content and sections.
-- `styles.css` - responsive layout and light/dark theme.
-- `script.js` - publication filtering, citation copy buttons, theme toggle.
-- `assets/` - copied CV PDF, BibTeX file, and research figures.
+- `styles.css` - responsive layout and visual styling.
+- `assets/profile-photo.jpg` - homepage portrait.
+- `assets/Yiting_Hu_CV.pdf` - downloadable CV.
+- `assets/publications.bib` - BibTeX bibliography.
 
 ## Edit Checklist
 
-1. Replace `your.email@domain.edu` and `your-linkedin`.
-2. Replace the `YH` mark with a profile photo if desired.
-3. Update publication links and project descriptions as papers move from review
+1. Edit `index.html` for homepage text, education, experience, publications,
+   talks, teaching, awards, and service.
+2. Replace `assets/profile-photo.jpg` if you want to update the portrait.
+3. Replace `assets/Yiting_Hu_CV.pdf` and `assets/publications.bib` after
+   updating the CV source files.
+4. Update publication links and project descriptions as papers move from review
    to accepted.
-4. Put these files in the root of a `username.github.io` repository, or enable
-   GitHub Pages from this folder in an existing repository.
+5. Commit and push changes to the `main` branch of the
+   `yitinghu011.github.io` repository.
 
 ## Local Preview
 
