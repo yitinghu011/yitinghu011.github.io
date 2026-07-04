@@ -11,6 +11,7 @@ Live URL: https://yitinghu011.github.io/
 
 - `index.html` - homepage content and sections.
 - `styles.css` - responsive layout and visual styling.
+- `script.js` - theme toggle and small interaction helpers.
 - `assets/profile-photo.jpg` - homepage portrait.
 - `assets/Yiting_Hu_CV.pdf` - downloadable CV.
 - `assets/publications.bib` - BibTeX bibliography.
